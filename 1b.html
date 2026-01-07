@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hyperlink Demo</title>
+</head>
+<body>
+    <h1>Working of Hyperlinks in HTML</h1>
+    <p>
+        The <code>&lt;a&gt;</code> tag is used to create hyperlinks.  
+        The <code>href</code> attribute specifies the destination URL,  
+        and the <code>target</code> attribute defines where to open the link.
+    </p>
+
+    <h2>Examples:</h2>
+    <ul>
+        <!-- Opens in the same tab/window -->
+        <li>
+            <a href="https://www.wikipedia.org" target="_self">
+                Open Wikipedia in the same tab (target="_self")
+            </a>
+        </li>
+
+        <!-- Opens in a new tab/window -->
+        <li>
+            <a href="https://www.google.com" target="_blank">
+                Open Google in a new tab (target="_blank")
+            </a>
+        </li>
+
+        <!-- Opens in parent frame (useful in framesets) -->
+        <li>
+            <a href="https://www.microsoft.com" target="_parent">
+                Open Microsoft in parent frame (target="_parent")
+            </a>
+        </li>
+
+        <!-- Opens in full body of the window -->
+        <li>
+            <a href="https://www.github.com" target="_top">
+                Open GitHub in full window (target="_top")
+            </a>
+        </li>
+    </ul>
+
+    <p>
+        You can also link to another page in the same project:  
+        <a href="about.html" target="_self">Go to About Page</a>
+    </p>
+</body>
+</html>
